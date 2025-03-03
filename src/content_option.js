@@ -1,74 +1,82 @@
-const logotext = "JOHN";
+const logotext = "ROMO";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Fernando Romo",
+    description: "I’m Fernando Romo, a software engineer and Full Stack Developer, specializing in backend technologies and currently working in Mexico",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Fernando Romo",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I build scalable backends",
+        third: "I architect cloud solutions",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionate about developing robust software solutions. With a strong foundation in .NET and Node.js, I create efficient, scalable backends that power modern applications.",
+    your_img_url: "me.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "As a software engineering graduate, I have diversified my skill set across multiple technologies including .NET, Node.js, SQL Server, MongoDB, React.js, and JavaScript. I am deeply engaged in backend development, focusing on APIs and server-side logic to drive complex applications.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Backend Developer",
+        where: "Tech Innovations Inc.",
+        date: "2021 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Digital Solutions LLC",
+        date: "2019 - 2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Junior Developer",
+        where: "Startup Hub",
+        date: "2017 - 2019",
     },
 ];
 
-const skills = [{
-        name: "Python",
+const skills = [
+    {
+        name: ".NET",
+        value: 95,
+    },
+    {
+        name: "Node.js",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "SQL Server",
+        value: 88,
+    },
+    {
+        name: "MongoDB",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
         name: "React",
-        value: 60,
+        value: 75,
     },
     {
-        name: "Jquery",
+        name: "JavaScript",
         value: 85,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Backend Development",
+        description: "Expertise in developing scalable and performant backend systems using .NET and Node.js.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "API Development",
+        description: "Design and implementation of RESTful APIs to facilitate communication between client-side and server-side applications.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Database Design",
+        description: "Proficient in designing and managing both SQL and NoSQL databases, ensuring data integrity and efficiency.",
     },
 ];
 
@@ -136,8 +144,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "lopezromo.fer43.gmail.com",
+    YOUR_FONE: "(998)411-4644",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -153,14 +161,7 @@ const socialprofils = {
     twitter: "https://twitter.com",
 };
 export {
-    meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
+    contactConfig, dataabout,
+    dataportfolio, introdata, logotext, meta, services, skills, socialprofils, worktimeline
 };
+
